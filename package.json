@@ -1,0 +1,13 @@
+{
+  "name": "training-tracker",
+  "version": "1.0.0",
+  "description": "HR Learning & Development Training Tracker",
+  "private": true,
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && node index.js",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && node index.js"
+  }
+}
